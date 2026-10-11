@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+train/
+my_val/
+data/
+dataset
+*.zip
+.vscode/
+.DS_Store
