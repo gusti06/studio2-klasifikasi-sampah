@@ -22,12 +22,12 @@ Tidak ada data tambahan dari luar pada baseline ini.
 
 ## Struktur data
 
-Letakkan dataset pada folder `train/` dengan lima subfolder kelas sesuai urutan di atas. Dataset tidak boleh diunggah ke repository publik.
+Letakkan dataset pada folder `data/train/` dengan lima subfolder kelas sesuai urutan di atas. Dataset tidak boleh diunggah ke repository publik.
 
 ## Menjalankan
 
 ```powershell
-python train.py --data train --model efficientnet_b0 --epochs 12
+python train.py --data data/train --model efficientnet_b0 --epochs 12
 python evaluate.py --submission submission --data my_val
 ```
 

@@ -49,7 +49,7 @@ def evaluate(model, loader, device):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", type=Path, default=Path("train"))
+    parser.add_argument("--data", type=Path, default=Path("data/train"))
     parser.add_argument("--epochs", type=int, default=12)
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--val-fraction", type=float, default=0.2)
