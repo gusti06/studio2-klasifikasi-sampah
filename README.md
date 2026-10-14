@@ -27,7 +27,7 @@ Letakkan dataset pada folder `data/train/` dengan lima subfolder kelas sesuai ur
 ## Menjalankan
 
 ```powershell
-python train.py --data data/train --model efficientnet_b0 --epochs 12
+python train.py --data data/train --model efficientnet_b0 --epochs 20 --patience 5
 python evaluate.py --submission submission --data my_val
 ```
 
